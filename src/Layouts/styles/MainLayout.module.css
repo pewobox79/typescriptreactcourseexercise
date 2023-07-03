@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    background-color: lightgray;
+    border-bottom-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainWrapper{
+    max-width: 1000px;
+    margin: auto;
+    min-height: 100vh;
+    height: auto;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 0 10px
+}
+.mainInner{
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

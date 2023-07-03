@@ -1,0 +1,13 @@
+.itemElement{
+    width: 80%;
+    min-height: 50px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 30px
+}

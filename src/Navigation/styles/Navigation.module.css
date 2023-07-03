@@ -1,0 +1,31 @@
+.navigation{
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    margin: auto
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto
+}
+
+.navItem{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.navItemLink{
+    text-decoration: none;
+    color: green
+}
+
+.navItemLink:hover{
+    color: black;
+
+}
+
